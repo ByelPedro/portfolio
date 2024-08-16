@@ -109,7 +109,7 @@ body {
 .info-user span {
     font-size: 1.2rem;
     font-weight: 400;
-    color: var(--color-destaque);
+    color: green;
 }
 
 .info-user p {
@@ -143,7 +143,8 @@ body {
 .text-projeto {
     font-size: 1.3rem;
     font-weight: 500;
-    color: var(--color-destaque);
+    color: black;
+    font-weight: bold;
 }
 
 .img-projeto {
@@ -167,7 +168,7 @@ body {
 }
 
 .btn {
-    background-color: var(--color-destaque);
+    background-color: green;
     color: var(--color-white);
     font-weight: 600;
     padding: .7rem 1.3rem;
@@ -200,9 +201,9 @@ body {
 }
 
 .box-social {
-    background-color: var(--color-destaque);
+    background-color: green;
     height: 90px;
-    width: 90px;
+    width: 100px;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -211,7 +212,7 @@ body {
 
 .box-social i {
     font-size: 2.5rem;
-    color: var(--color-white);
+    color: white;
 }
 
 /************** Skills*/
@@ -234,7 +235,7 @@ body {
     font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: bold;
-    color: var(--color-destaque);
+    color: black;
 }
 
 .skills-icons {
@@ -247,7 +248,7 @@ body {
 }
 
 .skills-icons i {
-    color: var(--color-black);
+    color: black;
     font-size: 1.5rem;
     transition: color 0.3s;
 }
@@ -269,24 +270,12 @@ body {
     color: #f7df1e;
 }
 
-.skills-icons .fa-bootstrap:hover {
+.skills-icons .fa-github:hover {
     color: #7952b3;
 }
 
-.skills-icons .fa-react:hover {
+.skills-icons .fa-aws:hover {
     color: #61dafb;
-}
-
-.skills-icons .fa-node:hover {
-    color: #339933;
-}
-
-.skills-icons .fa-php:hover {
-    color: #777bb4;
-}
-
-.skills-icons .fa-github:hover {
-    color: #181717;
 }
 
 /************** WIDGET 3*/
@@ -320,14 +309,15 @@ body {
 }
 
 .text-servicos h1 {
+    margin-top: 50px;
     font-size: var(--font-title-mobile);
-    color: var(--color-black);
+    color: black;
 }
 
 .text-servicos span {
     font-size: 1.2rem;
     font-weight: 400;
-    color: var(--color-gray);
+    color: green;
 }
 
 .servicos-box {
@@ -340,10 +330,9 @@ body {
 }
 
 .item-servico {
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
     width: 100%;
     max-width: 250px;
-    height: 250px;
+    height: 200px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -355,12 +344,13 @@ body {
 
 .item-servico i {
     font-size: 3rem;
-    color: var(--color-destaque);
+    color: black;
 }
 
 .item-servico span {
     font-size: 1.2rem;
-    color: var(--color-black);
+    color: black;
+    font-weight: bold
 }
 
 /************** Contato*/
@@ -372,7 +362,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: var(--color-destaque);
+    background-color: green;
     padding: 1rem; /* Certificando que a seção de contato tenha padding */
 }
 
@@ -389,7 +379,8 @@ body {
 
 .text-contato h1 {
     font-size: var(--font-title-mobile);
-    color: var(--color-white);
+    color: white
+    
 }
 
 .lista-contato {
@@ -419,7 +410,7 @@ body {
 }
 
 .btn2 {
-    background-color: var(--color-black);
+    background-color: black;
     color: var(--color-white);
     font-weight: 600;
     padding: .7rem 1.3rem;
