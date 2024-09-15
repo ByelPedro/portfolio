@@ -14,14 +14,13 @@ body {
 }
 
 .container {
-    width: 100%;
-    max-width: 1800px;
     padding: 1rem;
     display: flex;
     align-items: stretch; /* Garante que os blocos tenham a mesma altura */
     justify-content: center;
     gap: 1.2rem;
     box-sizing: border-box;
+    border-radius: 30%;
 }
 
 .card {
