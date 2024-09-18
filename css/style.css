@@ -61,7 +61,7 @@ body {
 
 /************** Úsuario*/
 .user {
-    width: 50%;
+    width: 80%;
     height: 60%;
     border-radius: 10px;
     display: flex;
@@ -87,7 +87,7 @@ body {
 }
 
 .img-user img {
-    width: 200px;
+    width: 180px;
     border-radius: 100px;
 }
 
