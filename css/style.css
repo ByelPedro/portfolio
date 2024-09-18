@@ -87,8 +87,8 @@ body {
 }
 
 .img-user img {
-    width: 120px;
-    border-radius: 10px;
+    width: 200px;
+    border-radius: 100px;
 }
 
 .info-user {
@@ -202,8 +202,8 @@ body {
 
 .box-social {
     background-color: green;
-    height: 90px;
-    width: 100px;
+    height: 110px;
+    width: 110px;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -317,7 +317,7 @@ body {
 .text-servicos span {
     font-size: 1.2rem;
     font-weight: 400;
-    color: green;
+    color: black;
 }
 
 .servicos-box {
